@@ -17,3 +17,4 @@ from . import util, ml, auto
 from .anomaly import attribute_anomalies, anomaly_scores
 from .anomaly_scorers import InverseDensityScorer, ITAnomalyScorer, MeanDeviationScorer, MedianDeviationScorer, \
     MedianCDFQuantileScorer, RescaledMedianCDFQuantileScorer
+from .feature import feature_relevance, feature_relevance_distribution, feature_relevance_sample
